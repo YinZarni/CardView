@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnlist"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog List"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#fff"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/btnmultiple"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog MultiChoice"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#fff"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/btncustomlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Dialog Custom Layout"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="#fff"
+        android:background="@drawable/button"/>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#2ea5d1"/>
+
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_marginTop="5dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
